@@ -4,19 +4,12 @@
   selected: true
   critical: true
   packages:
-    # Substituindo pacotes específicos do CachyOS por equivalentes ou removendo-os
-    # Manjaro usa seu próprio keyring, mirrorlist e kernels.
-    # linux-cachyos, linux-cachyos-headers são substituídos por linux-manjaro e seus headers.
-    # grub-hook e chwd provavelmente não são necessários ou são tratados de forma diferente no Manjaro.
-    - manjaro-system # Pacote base do Manjaro que contém muitas configurações e scripts cruciais
-    - manjaro-keyring
-    - pacman # Garantir que o pacman esteja presente, embora seja um pacote base.
-    - grub # Bootloader, essencial. Manjaro já o instala por padrão.
-    - linux-lts # Ou linux (latest stable kernel), dependendo da preferência. Manjaro usa seus próprios kernels.
-    - linux-lts-headers # Headers para o kernel selecionado.
-    # Pode ser necessário adicionar outros pacotes essenciais do Manjaro que são implicitamente instalados
-    # em uma instalação padrão, mas que não estão na lista original do CachyOS.
-    # Ex: base, base-devel (que já está como subgroup, mas é bom ter certeza)
+    - community-livecd-key
+    - mkinitcpio-nfs-utils
+    - linux-lts
+    - linux-lts-headers
+    - manjaro-live-systemd 
+    - networkmanager
 
 - name: "Manjaro Community Packages"
   description: "Recommended Manjaro community packages and general utilities"
