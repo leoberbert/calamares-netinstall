@@ -5,11 +5,8 @@
   critical: true
   packages:
     - community-livecd-key
-    - mkinitcpio-nfs-utils
-    - linux-lts
-    - linux-lts-headers
-    - manjaro-live-systemd 
-    - networkmanager
+    - hyprland 
+    - sddm
 
 - name: "Manjaro Community Packages"
   description: "Recommended Manjaro community packages and general utilities"
