@@ -1,6 +1,6 @@
 - name: "Manjaro Core (hidden)"
   description: "Required Manjaro packages"
-  hidden: true
+  hidden: false
   selected: true
   critical: true
   packages:
