@@ -1,35 +1,3 @@
-- name: "Manjaro Core (hidden)"
-  description: "Required Manjaro packages"
-  hidden: false
-  selected: true
-  critical: true
-  packages:
-    - community-livecd-key
-    - hyprland 
-    - sddm
-
-- name: "Manjaro Community Packages"
-  description: "Recommended Manjaro community packages and general utilities"
-  hidden: false
-  selected: true
-  critical: true
-  packages:
-    # Removendo pacotes específicos do CachyOS e adicionando equivalentes ou úteis para Manjaro
-    - fish # Se desejar o fish shell
-    # - manjaro-fish-config # Se existir um pacote de configuração específico do Manjaro para fish
-    # - ananicy-rules # Não é específico do Manjaro, pode ser mantido se desejado.
-    # - cachyos-hello # Remover, não existe no Manjaro.
-    # - cachyos-kernel-manager # Remover, Manjaro tem o Manjaro Settings Manager.
-    - manjaro-settings-manager # Gerenciador de configurações do Manjaro, inclui gerenciamento de kernel.
-    # - cachyos-packageinstaller # Remover, Manjaro usa pamac e octopi.
-    - pamac-cli # Gerenciador de pacotes gráfico do Manjaro (CLI)
-    - pamac-gtk # Gerenciador de pacotes gráfico do Manjaro (GUI)
-    # - cachyos-settings # Remover
-    - zsh # Se desejar o zsh shell
-    # - manjaro-zsh-config # Se existir um pacote de configuração específico do Manjaro para zsh
-    # - cachyos-micro-settings # Remover
-    - manjaro-wallpapers # Papéis de parede do Manjaro
-
 - name: "Base-devel + Common packages"
   description: "Recommended. Don't change unless you know what you're doing (generic)."
   hidden: false
@@ -87,8 +55,8 @@
         - pkgfile
         - rebuild-detector
         - reflector
-        - paru # AUR helper, muito comum no Manjaro/Arch
-        - octopi # Interface gráfica para pacman/AUR (opcional, pamac é mais comum no Manjaro)
+        - paru
+        - octopi
     - name: "desktop integration"
       description: "Useful helper tools and libs for desktop usage"
       selected: true
@@ -121,7 +89,7 @@
         - unzip
         - xz
     - name: "fonts"
-      description: "Manjaro font selection" # Alterado de CachyOS para Manjaro
+      description: "Community font selection" # Alterado de CachyOS para Manjaro
       selected: true
       packages:
         - adobe-source-han-sans-cn-fonts
@@ -343,8 +311,7 @@
   selected: false
   critical: true
   packages:
-    # Remover cachyos-picom-config, usar picom ou picom-git diretamente se não houver um config Manjaro específico.
-    - picom # Ou picom-git
+    - picom
     - bspwm
     - sxhkd
     - polybar
@@ -407,9 +374,6 @@
   selected: false
   critical: true
   packages:
-    # Pacotes do Cosmic podem não estar diretamente disponíveis nos repositórios oficiais do Manjaro.
-    # Podem precisar ser construídos do AUR ou de repositórios comunitários específicos.
-    # Mantendo a lista como está, mas com a ressalva.
     - cosmic-app-library
     - cosmic-applets
     - cosmic-bg
@@ -443,7 +407,6 @@
   expanded: false
   critical: true
   packages:
-    # Remover cachyos-i3wm-settings e cachyos-picom-config.
     - i3-wm
     - i3blocks
     - i3lock-color
@@ -452,7 +415,7 @@
     - polybar
     - ly
     - dunst
-    - picom # Adicionar picom para transparência se desejado
+    - picom
 
 - name: "Hyprland"
   description: "Hyprland is a highly customizable dynamic tiling Wayland compositor that doesn't sacrifice on its looks."
@@ -461,17 +424,16 @@
   expanded: false
   critical: true
   packages:
-    # Remover cachyos-hyprland-settings, kvantum-theme-nordic-git, cachyos-nord-gtk-theme-git
     - hyprland
     - kvantum
     - qt5ct
     - sddm
     - swaybg
-    - swaylock-effects-git # Se disponível no AUR, senão swaylock
-    - swaylock-fancy-git # Se disponível no AUR, senão swaylock
+    #- swaylock-effects-git
+    #- swaylock-fancy-git
     - waybar
     - xdg-desktop-portal-hyprland
-    - grimblast-git # Se disponível no AUR
+    #- grimblast-git
     - slurp
     - mako
     - wob
@@ -481,14 +443,12 @@
     - wofi
     - wlogout
     - swappy
-    - uwsm # Verificar disponibilidade no Manjaro/AUR
+    #- uwsm
     - wl-clipboard
-    - polkit-kde-agent # Se usando KDE apps ou um polkit agent para Hyprland
+    #- polkit-kde-agent
     - bemenu
     - bemenu-wayland
     - xorg-xwayland
-    - capitaine-cursors # Se desejado
-    # Temas Qt e GTK podem ser instalados separadamente de acordo com a preferência.
 
 - name: "LXDE-Desktop"
   description: "The Lightweight Desktop Environment."
@@ -546,7 +506,7 @@
     - libstatgrab
     - libsysstat
     - lm_sensors
-    - lxqt # Meta-pacote LXQt
+    - lxqt
     - lxqt-archiver
     - network-manager-applet
     - oxygen-icons
@@ -584,12 +544,11 @@
   selected: false
   critical: true
   packages:
-    # Remover cachyos-openbox-settings
     - obconf-qt
     - libwnck3
     - acpi
     - arandr
-    - archlinux-xdg-menu # Deve funcionar no Manjaro, mas verifique se há um equivalente Manjaro-specifico.
+    - archlinux-xdg-menu
     - dex
     - dmenu
     - dunst
@@ -636,11 +595,10 @@
   selected: false
   critical: true
   packages:
-    # Remover cachyos-qtile-settings
     - ttf-nerd-fonts-symbols
     - qtile
     - ttf-cascadia-code
-    - wired # Verificar disponibilidade
+    - wired
     - rofi
     - thunar
     - polkit-gnome
@@ -666,68 +624,11 @@
     - wayland-protocols
     - wofi
     - foot
-    - wmenu # Verificar disponibilidade no Manjaro/AUR
+    - wmenu
     - ly
     - xorg-xwayland
     - xdg-desktop-portal
     - xdg-desktop-portal-wlr
-
-- name: "UKUI"
-  description: "It is a lightweight desktop environment, which consumes few resources and works with older computers. It has been developed with GTK and Qt technologies. Its visual appearance is similar to Windows 7, making it easier for new users of Linux."
-  hidden: false
-  selected: false
-  critical: true
-  packages:
-    # UKUI pode ter pacotes mais difíceis de encontrar nos repositórios padrão do Manjaro.
-    # Podem precisar de AUR ou repositórios comunitários.
-    - sddm
-    - thunar
-    - thunar-archive-plugin
-    - thunar-volman
-    - peony # Verificar disponibilidade
-    - xfce4-terminal
-    - qt5-ukui-platformtheme # Verificar disponibilidade
-    - ukui-biometric-auth # Verificar disponibilidade
-    - ukui-control-center # Verificar disponibilidade
-    - ukui-interface # Verificar disponibilidade
-    - ukui-media # Verificar disponibilidade
-    - ukui-menu # Verificar disponibilidade
-    - ukui-menus # Verificar disponibilidade
-    - ukui-notebook # Verificar disponibilidade
-    - ukui-panel # Verificar disponibilidade
-    - ukui-power-manager # Verificar disponibilidade
-    - ukui-screensaver # Verificar disponibilidade
-    - ukui-session-manager # Verificar disponibilidade
-    - ukui-settings-daemon # Verificar disponibilidade
-    - ukui-sidebar # Verificar disponibilidade
-    - ukui-system-monitor # Verificar disponibilidade
-    - ukui-themes # Verificar disponibilidade
-    - ukui-wallpapers # Verificar disponibilidade
-    - ukui-window-switch # Verificar disponibilidade
-    - mate-terminal # Mate Terminal está ok, mas pode ser trocado por ukui-terminal se existir
-    - mate-system-monitor # Mate System Monitor está ok, mas pode ser trocado por ukui-system-monitor se existir
-    - mate-control-center # Mate Control Center está ok, mas pode ser trocado por ukui-control-center se existir
-    - redshift
-    - gnome-screenshot
-    - accountsservice
-    - gvfs
-    - qt5-quickcontrols
-
-- name: "Wayfire"
-  description: "Wayfire is a wayland compositor based on wlroots. It aims to create a customizable, extendable and lightweight environment without sacrificing its appearance."
-  hidden: false
-  selected: false
-  expanded: false
-  critical: true
-  packages:
-    # Remover cachyos-wayfire-settings, wayfire-desktop-git (usar wayfire).
-    - wayfire # Usar o pacote estável do Wayfire, se wayfire-desktop-git não for necessário ou estiver no AUR.
-    - egl-wayland
-    - wayland-protocols
-    - wofi
-    - ly
-    - xorg-xhost
-    - xorg-xwayland
 
 - name: "CPU specific Microcode update packages"
   description: "Microcode update image for AMD and Intel CPU"
@@ -745,7 +646,7 @@
   critical: false
   packages:
     - firefox
-    - firefox-i18n-$LOCALE # $LOCALE será substituído pela localidade apropriada (ex: pt-br)
+    - firefox-i18n-$LOCALE
 
 - name: "Printing-Support"
   description: "Support for printing (Cups)"
