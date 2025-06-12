@@ -1,4 +1,4 @@
-- name: "CachyOS required (hidden)"
+- name: "Community required (hidden)"
   description: "needed CachyOS packages"
   hidden: true
   selected: true
@@ -14,8 +14,8 @@
      - linux-cachyos-headers
      - grub-hook
      - chwd
-- name: "CachyOS Packages"
-  description: "needed CachyOS packages"
+- name: "Community Packages"
+  description: "needed Community packages"
   hidden: false
   selected: true
   critical: true
