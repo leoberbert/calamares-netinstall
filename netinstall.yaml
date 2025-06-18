@@ -1,20 +1,3 @@
-- name: "i3-Window-Manager"
-  description: "i3 tiling window manager, primarily targeted at developers and advanced users."
-  hidden: false
-  selected: false
-  expanded: false
-  critical: true
-  packages:
-    - i3-wm
-    - i3blocks
-    - i3lock-color
-    - i3status
-    - rofi
-    - polybar
-    - ly
-    - dunst
-    - picom
-
 - name: "Hyprland"
   description: "Hyprland is a highly customizable dynamic tiling Wayland compositor that doesn't sacrifice on its looks."
   hidden: false
