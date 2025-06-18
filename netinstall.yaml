@@ -8,9 +8,9 @@
     - hyprland
     #- ml4w-hyprland
     #- nwg-dock-hyprland
-    #- waybar
-    #- hyprshade
-    #- waypaper
+    - waybar
+    - hyprshade
+    - waypaper
     #- swaync
     #- auto-tweaks-browser
     #- comm-base-config
@@ -25,7 +25,7 @@
     #- btop
     #- plymouth-theme-community
     #- comm-wallpapers-hyprland
-    #- fastfetch
+    - fastfetch
     #- xdg-desktop-portal-gtk
     #- eza
     #- python-pip
@@ -53,7 +53,7 @@
     #- cliphist
     #- nwg-look
     #- qt6ct
-    #- rofi-wayland
+    - rofi-wayland
     #- polkit-gnome
     #- polkit
     #- meld
@@ -65,7 +65,7 @@
     #- breeze
     #- flatpak
     #- gvfs
-    #- wlogout
+    - wlogout
     #- grimblast-git
     #- bibata-cursor-theme
     #- pacseek
