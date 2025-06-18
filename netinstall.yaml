@@ -11,12 +11,12 @@
     - waybar
     - hyprshade
     - waypaper
-    #- swaync
+    - swaync
     #- auto-tweaks-browser
     #- comm-base-config
     #- evince
     #- eog
-    #- papers
+    - papers
     #- g4music
     #- p7zip
     #- cmatrix
