@@ -6,14 +6,13 @@
   critical: true
   packages:
     - hyprland
-    #- ml4w-hyprland
-    #- nwg-dock-hyprland
+    - ml4w-hyprland
+    - nwg-dock-hyprland
     - waybar
     - hyprshade
     - waypaper
     - swaync
-    #- auto-tweaks-browser
-    #- comm-base-config
+    - auto-tweaks-browser
     #- evince
     #- eog
     - papers
