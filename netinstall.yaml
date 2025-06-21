@@ -41,10 +41,10 @@
     #- imagemagick
     #- jq
     #- xclip
-    #- kitty
+    - kitty
     #- neovim
     #- htop
-    #- python-pywal
+    - python-pywal
     #- pinta
     #- blueman
     #- grim
