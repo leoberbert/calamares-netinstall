@@ -23,7 +23,7 @@
     #- base-devel
     #- btop
     #- plymouth-theme-community
-    #- comm-wallpapers-hyprland
+    - comm-wallpapers-hyprland
     #- fastfetch
     #- xdg-desktop-portal-gtk
     #- eza
