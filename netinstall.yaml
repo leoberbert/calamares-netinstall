@@ -6,7 +6,7 @@
   critical: true
   packages:
     - hyprland
-    - ml4w-hyprland
+    #- ml4w-hyprland
     - nwg-dock-hyprland
     - waybar
     - hyprshade
