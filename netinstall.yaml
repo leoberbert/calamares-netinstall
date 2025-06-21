@@ -6,16 +6,16 @@
   critical: true
   packages:
     - hyprland
-    - ml4w-hyprland
-    - nwg-dock-hyprland
-    - waybar
-    - hyprshade
-    - waypaper
-    - swaync
-    - auto-tweaks-browser
+    #- ml4w-hyprland
+    #- nwg-dock-hyprland
+    #- waybar
+    #- hyprshade
+    #- waypaper
+    #- swaync
+    #- auto-tweaks-browser
     #- evince
     #- eog
-    - papers
+    #- papers
     #- g4music
     #- p7zip
     #- cmatrix
@@ -24,7 +24,7 @@
     #- btop
     #- plymouth-theme-community
     #- comm-wallpapers-hyprland
-    - fastfetch
+    #- fastfetch
     #- xdg-desktop-portal-gtk
     #- eza
     #- python-pip
@@ -64,7 +64,7 @@
     #- breeze
     #- flatpak
     #- gvfs
-    - wlogout
+    #- wlogout
     #- grimblast-git
     #- bibata-cursor-theme
     #- pacseek
@@ -123,6 +123,6 @@
     #- inotify-tools
     #- inxi
     #- libavif
-    - lsof
-    - ncdu
-    - sysstat
+    #- lsof
+    #- ncdu
+    #- sysstat
