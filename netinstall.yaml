@@ -8,10 +8,10 @@
     - hyprland
     #- ml4w-hyprland
     #- nwg-dock-hyprland
-    - waybar
-    - hyprshade
-    - waypaper
-    - swaync
+    #- waybar
+    #- hyprshade
+    #- waypaper
+    #- swaync
     #- auto-tweaks-browser
     #- evince
     #- eog
@@ -23,7 +23,7 @@
     #- base-devel
     #- btop
     #- plymouth-theme-community
-    - comm-wallpapers-hyprland
+    #- comm-wallpapers-hyprland
     #- fastfetch
     #- xdg-desktop-portal-gtk
     #- eza
@@ -44,7 +44,7 @@
     - kitty
     #- neovim
     #- htop
-    - python-pywal
+    #- python-pywal
     #- pinta
     #- blueman
     #- grim
