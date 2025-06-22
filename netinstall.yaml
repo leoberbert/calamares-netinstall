@@ -7,7 +7,7 @@
   packages:
     - hyprland
     #- ml4w-hyprland
-    - nwg-dock-hyprland
+    #- nwg-dock-hyprland
     - waybar
     - hyprshade
     - waypaper
