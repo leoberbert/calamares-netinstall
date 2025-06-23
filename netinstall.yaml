@@ -12,13 +12,13 @@
     - hyprshade
     - waypaper
     - swaync
-    #- auto-tweaks-browser
-    #- evince
-    #- eog
-    #- papers
-    #- g4music
-    #- p7zip
-    #- cmatrix
+    - auto-tweaks-browser
+    - evince
+    - eog
+    - papers
+    - g4music
+    - p7zip
+    - cmatrix
     #- go
     #- base-devel
     #- btop
