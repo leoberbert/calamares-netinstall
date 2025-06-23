@@ -91,31 +91,25 @@
     - qt5-svg
     - qt5-graphicaleffects
     - qt5-quickcontrols2
-    #- biglinux-meta-audio-config
     #- portaudio
     #- lib32-portaudio
     #- pipewire-alsa
     #- pipewire-pulse
     #- manjaro-pipewire
     #- libsndfile
-    #- lib32-libsndfile
-    #- xf86-input-elographics
-    #- xf86-input-evdev
-    #- xf86-input-libinput
-    #- xf86-input-vmmouse
-    #- xf86-input-void
-    #- grub-btrfs
-    #- mhwd
-    #- mhwd-db
-    #- libxcvt
-    #- b43-fwcutter
-    #- glxinfo
-    #- clang
-    #- gnu-free-fonts
-    #- harfbuzz-icu
-    #- hyphen
-    #- inotify-tools
-    #- inxi
+    - lib32-libsndfile
+    - xf86-input-elographics
+    - xf86-input-evdev
+    - xf86-input-libinput
+    - xf86-input-void
+    - libxcvt
+    - b43-fwcutter
+    - glxinfo
+    - clang
+    - gnu-free-fonts
+    - harfbuzz-icu
+    - hyphen
+    - inotify-tools
     - libavif
     - lsof
     - ncdu
