@@ -116,7 +116,7 @@
     #- hyphen
     #- inotify-tools
     #- inxi
-    #- libavif
-    #- lsof
-    #- ncdu
-    #- sysstat
+    - libavif
+    - lsof
+    - ncdu
+    - sysstat
