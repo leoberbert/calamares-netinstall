@@ -74,12 +74,12 @@
     - checkupdates-with-aur
     - loupe
     - firefox
-    #- nautilus
-    #- nautilus-open-any-terminal
-    #- nautilus-admin
-    #- nautilus-empty-file
-    #- nautilus-image-converter
-    #- nautilus-share
+    - nautilus
+    - nautilus-open-any-terminal
+    - nautilus-admin
+    - nautilus-empty-file
+    - nautilus-image-converter
+    - nautilus-share
     - gnome-text-editor
     - gnome-calculator
     - loupe
@@ -88,9 +88,9 @@
     - ffmpegthumbnailer
     - wireplumber
     - sddm
-    #- qt5-svg
-    #- qt5-graphicaleffects
-    #- qt5-quickcontrols2
+    - qt5-svg
+    - qt5-graphicaleffects
+    - qt5-quickcontrols2
     #- biglinux-meta-audio-config
     #- portaudio
     #- lib32-portaudio
