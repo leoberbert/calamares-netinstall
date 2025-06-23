@@ -6,6 +6,7 @@
   critical: true
   packages:
     - hyprland
+    - comm-hyprland-config
     - ml4w-hyprland
     - nwg-dock-hyprland
     - waybar
@@ -48,6 +49,8 @@
     - cliphist
     - nwg-look
     - qt6ct
+    - qt6-5compat
+    - qt6-declarative
     - rofi-wayland
     - polkit-gnome
     - polkit
