@@ -6,7 +6,7 @@
   critical: true
   packages:
     - hyprland
-    - comm-hyprland-config
+    #- comm-hyprland-config
     - ml4w-hyprland
     - nwg-dock-hyprland
     - waybar
