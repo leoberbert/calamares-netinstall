@@ -13,32 +13,32 @@
     - waypaper
     - swaync
     #- auto-tweaks-browser
-    - evince
-    - eog
-    - papers
-    - g4music
-    - p7zip
-    - cmatrix
-    - go
-    - base-devel
-    - btop
-    - plymouth-theme-community
+    #- evince
+    #- eog
+    #- papers
+    #- g4music
+    #- p7zip
+    #- cmatrix
+    #- go
+    #- base-devel
+    #- btop
+    #- plymouth-theme-community
     - comm-wallpapers-hyprland
     #- fastfetch
-    - xdg-desktop-portal-gtk
-    - eza
-    - python-pip
-    - python-gobject
-    - python-screeninfo
-    - tumbler
-    - brightnessctl
-    - nm-connection-editor
-    - network-manager-applet
-    - gtk4
-    - libadwaita
-    - fuse2
-    - imagemagick
-    - jq
+    #- xdg-desktop-portal-gtk
+    #- eza
+    #- python-pip
+    #- python-gobject
+    #- python-screeninfo
+    #- tumbler
+    #- brightnessctl
+    #- nm-connection-editor
+    #- network-manager-applet
+    #- gtk4
+    #- libadwaita
+    #- fuse2
+    #- imagemagick
+    #- jq
     - xclip
     - kitty
     #- neovim
@@ -91,9 +91,9 @@
     #- ffmpegthumbnailer
     #- wireplumber
     - sddm
-    - qt5-svg
-    - qt5-graphicaleffects
-    - qt5-quickcontrols2
+    #- qt5-svg
+    #- qt5-graphicaleffects
+    #- qt5-quickcontrols2
     #- biglinux-meta-audio-config
     #- portaudio
     #- lib32-portaudio
