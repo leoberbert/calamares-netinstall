@@ -24,7 +24,7 @@
     - btop
     - plymouth-theme-community
     - comm-wallpapers-hyprland
-    - fastfetch
+    #- fastfetch
     - xdg-desktop-portal-gtk
     - eza
     - python-pip
@@ -33,7 +33,6 @@
     - tumbler
     - brightnessctl
     - nm-connection-editor
-    - network-manager-applet
     - network-manager-applet
     - gtk4
     - libadwaita
