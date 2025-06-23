@@ -91,12 +91,12 @@
     - qt5-svg
     - qt5-graphicaleffects
     - qt5-quickcontrols2
-    #- portaudio
-    #- lib32-portaudio
-    #- pipewire-alsa
-    #- pipewire-pulse
+    - portaudio
+    - lib32-portaudio
+    - pipewire-alsa
+    - pipewire-pulse
     #- manjaro-pipewire
-    #- libsndfile
+    - libsndfile
     - lib32-libsndfile
     - xf86-input-elographics
     - xf86-input-evdev
