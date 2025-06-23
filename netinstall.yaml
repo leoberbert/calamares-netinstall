@@ -24,7 +24,7 @@
     - btop
     - plymouth-theme-community
     - comm-wallpapers-hyprland
-    - xdg-desktop-portal-gtk
+    - xdg-desktop-portal-hyprland
     - eza
     - python-pip
     - python-gobject
@@ -55,7 +55,6 @@
     - zsh
     - zsh-completions
     - fzf
-    - pavucontrol
     - papirus-icon-theme
     - breeze
     - flatpak
@@ -82,20 +81,22 @@
     - nautilus-share
     - gnome-text-editor
     - gnome-calculator
-    - loupe
     - mpv
     - imv
     - ffmpegthumbnailer
-    - wireplumber
     - sddm
     - qt5-svg
     - qt5-graphicaleffects
     - qt5-quickcontrols2
-    #- portaudio
-    #- lib32-portaudio
+    - helvum
+    - pipewire
+    - wireplumber
+    - pipewire-audio
+    - pipewire-pulse    
     - pipewire-alsa
-    - pipewire-pulse
-    #- manjaro-pipewire
+    - pipewire-jack
+    - lib32-pipewire
+    - lib32-pipewire-jack
     - libsndfile
     - lib32-libsndfile
     - xf86-input-elographics
