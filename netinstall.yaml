@@ -61,32 +61,32 @@
     - flatpak
     - gvfs
     - wlogout
-    #- grimblast-git
-    #- bibata-cursor-theme
-    #- pacseek
-    #- otf-font-awesome
-    #- ttf-fira-sans
-    #- ttf-fira-code
-    #- ttf-firacode-nerd
-    #- ttf-hack-nerd
-    #- ttf-dejavu
-    #- oh-my-posh-bin
-    #- checkupdates-with-aur
-    #- loupe
-    #- firefox
+    - grimblast-git
+    - bibata-cursor-theme
+    - pacseek
+    - otf-font-awesome
+    - ttf-fira-sans
+    - ttf-fira-code
+    - ttf-firacode-nerd
+    - ttf-hack-nerd
+    - ttf-dejavu
+    - oh-my-posh-bin
+    - checkupdates-with-aur
+    - loupe
+    - firefox
     #- nautilus
     #- nautilus-open-any-terminal
     #- nautilus-admin
     #- nautilus-empty-file
     #- nautilus-image-converter
     #- nautilus-share
-    #- gnome-text-editor
-    #- gnome-calculator
-    #- loupe
-    #- mpv
-    #- imv
-    #- ffmpegthumbnailer
-    #- wireplumber
+    - gnome-text-editor
+    - gnome-calculator
+    - loupe
+    - mpv
+    - imv
+    - ffmpegthumbnailer
+    - wireplumber
     - sddm
     #- qt5-svg
     #- qt5-graphicaleffects
