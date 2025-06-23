@@ -19,10 +19,10 @@
     - g4music
     - p7zip
     - cmatrix
-    #- go
-    #- base-devel
-    #- btop
-    #- plymouth-theme-community
+    - go
+    - base-devel
+    - btop
+    - plymouth-theme-community
     - comm-wallpapers-hyprland
     #- fastfetch
     #- xdg-desktop-portal-gtk
