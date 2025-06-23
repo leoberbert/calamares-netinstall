@@ -91,10 +91,10 @@
     - qt5-svg
     - qt5-graphicaleffects
     - qt5-quickcontrols2
-    - portaudio
-    - lib32-portaudio
-    #- pipewire-alsa
-    #- pipewire-pulse
+    #- portaudio
+    #- lib32-portaudio
+    - pipewire-alsa
+    - pipewire-pulse
     #- manjaro-pipewire
     - libsndfile
     - lib32-libsndfile
