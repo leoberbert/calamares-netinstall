@@ -41,25 +41,25 @@
     - kitty
     - neovim
     - python-pywal
-    #- pinta
-    #- blueman
-    #- grim
-    #- slurp
-    #- cliphist
-    #- nwg-look
-    #- qt6ct
-    #- rofi-wayland
-    #- polkit-gnome
-    #- polkit
-    #- meld
-    #- zsh
-    #- zsh-completions
-    #- fzf
-    #- pavucontrol
-    #- papirus-icon-theme
-    #- breeze
-    #- flatpak
-    #- gvfs
+    - pinta
+    - blueman
+    - grim
+    - slurp
+    - cliphist
+    - nwg-look
+    - qt6ct
+    - rofi-wayland
+    - polkit-gnome
+    - polkit
+    - meld
+    - zsh
+    - zsh-completions
+    - fzf
+    - pavucontrol
+    - papirus-icon-theme
+    - breeze
+    - flatpak
+    - gvfs
     - wlogout
     #- grimblast-git
     #- bibata-cursor-theme
