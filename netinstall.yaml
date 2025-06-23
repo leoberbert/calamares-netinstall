@@ -93,8 +93,8 @@
     - qt5-quickcontrols2
     - portaudio
     - lib32-portaudio
-    - pipewire-alsa
-    - pipewire-pulse
+    #- pipewire-alsa
+    #- pipewire-pulse
     #- manjaro-pipewire
     - libsndfile
     - lib32-libsndfile
