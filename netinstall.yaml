@@ -64,7 +64,7 @@
     - nautilus-image-converter
     - nautilus-open-any-terminal
     - nautilus-share
-    - ncdu
+    #- ncdu
     - neovim
     - network-manager-applet
     - nm-connection-editor
