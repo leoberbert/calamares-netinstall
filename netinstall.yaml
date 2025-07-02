@@ -64,9 +64,8 @@
     - nautilus-image-converter
     - nautilus-open-any-terminal
     - nautilus-share
-    #- ncdu
     - neovim
-    - network-manager-applet
+    #- network-manager-applet
     - nm-connection-editor
     - nwg-dock-hyprland
     - nwg-look
@@ -117,3 +116,11 @@
     - xclip
     - zsh
     - zsh-completions
+- name: "Serviços Essenciais de Rede"
+  description: "Pacotes de rede necessários para a funcionalidade do sistema."
+  hidden: true
+  selected: true
+  expanded: false
+  critical: true
+  packages:
+    - network-manager-applet
