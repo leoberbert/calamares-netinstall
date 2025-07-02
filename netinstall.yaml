@@ -116,8 +116,8 @@
     - xclip
     - zsh
     - zsh-completions
-- name: "Serviços Essenciais de Rede"
-  description: "Pacotes de rede necessários para a funcionalidade do sistema."
+- name: "Essential packages"
+  description: "Packages required for system functionality."
   hidden: true
   selected: true
   expanded: false
