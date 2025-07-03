@@ -124,3 +124,4 @@
   critical: true
   packages:
     - network-manager-applet
+    - base-devel
