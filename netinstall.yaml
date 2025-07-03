@@ -63,6 +63,7 @@
     - nautilus-empty-file
     - nautilus-image-converter
     - nautilus-open-any-terminal
+    - nautilus-with-terminal
     - nautilus-share
     - neovim
     #- network-manager-applet
