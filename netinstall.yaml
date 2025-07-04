@@ -123,9 +123,11 @@
   selected: false
   critical: true
   packages:
+    - auto-tweaks-browser
     - brightnessctl
     - cliphist
     - egl-wayland
+    - firefox
     - foot
     - fzf
     - g4music
@@ -138,6 +140,14 @@
     - ly
     - loupe
     - mako
+    - mpv
+    - nautilus
+    - nautilus-admin
+    - nautilus-empty-file
+    - nautilus-image-converter
+    - nautilus-open-any-terminal
+    - nautilus-with-terminal
+    - nautilus-share    
     - paru
     - pipewire
     - pipewire-pulse
