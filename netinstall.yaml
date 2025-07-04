@@ -117,6 +117,56 @@
     - xclip
     - zsh
     - zsh-completions
+- name: "Sway"                                                                                                                                                                                
+  description: "Sway is a tiling Wayland compositor and a drop-in replacement for the i3 window manager for X11. It works with your existing i3 configuration and supports most of i3's features, plus a few extras."
+  hidden: false
+  selected: false
+  critical: true
+  packages:
+    - brightnessctl
+    - cliphist
+    - egl-wayland
+    - foot
+    - fzf
+    - grim
+    - jq
+    - kitty
+    - ly
+    - mako
+    - paru
+    - pipewire
+    - pipewire-pulse
+    - playerctl
+    - polkit-gnome
+    - slurp
+    - sway
+    - swaybg
+    - swayidle
+    - swaylock
+    - ttf-dejavu
+    - ttf-fira-code
+    - ttf-fira-sans
+    - ttf-firacode-nerd
+    - ttf-hack-nerd
+    - ttf-nerd-fonts-symbols
+    - waybar
+    - wayland-protocols
+    - wlogout
+    - wofi
+    - wmenu
+    - wireplumber
+    - xdg-desktop-portal
+    - xdg-desktop-portal-gtk
+    - xdg-desktop-portal-hyprland
+    - xdg-desktop-portal-wlr
+    - xf86-input-elographics
+    - xf86-input-evdev
+    - xf86-input-libinput
+    - xf86-input-void
+    - xf86-video-qxl
+    - xorg-xwayland
+    - wl-clipboard
+      
 - name: "Essential packages"
   description: "Packages required for system functionality."
   hidden: true
