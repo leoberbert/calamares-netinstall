@@ -128,16 +128,27 @@
     - egl-wayland
     - foot
     - fzf
+    - g4music
+    - glxinfo
+    - gnome-calculator
+    - gnome-text-editor
     - grim
     - jq
     - kitty
     - ly
+    - loupe
     - mako
     - paru
     - pipewire
     - pipewire-pulse
     - playerctl
     - polkit-gnome
+    - qt5-graphicaleffects
+    - qt5-quickcontrols2
+    - qt5-svg
+    - qt6-5compat
+    - qt6-declarative
+    - qt6ct    
     - slurp
     - sway
     - swaybg
@@ -166,6 +177,8 @@
     - xf86-video-qxl
     - xorg-xwayland
     - wl-clipboard
+    - p7zip
+    - pacseek
       
 - name: "Essential packages"
   description: "Packages required for system functionality."
