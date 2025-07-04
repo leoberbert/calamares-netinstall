@@ -126,6 +126,7 @@
     - auto-tweaks-browser
     - brightnessctl
     - cliphist
+    - comm-sway-config
     - egl-wayland
     - firefox
     - foot
