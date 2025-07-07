@@ -124,6 +124,7 @@
   critical: true
   packages:
     - auto-tweaks-browser
+    - biglinux-bash-config
     - brightnessctl
     - cliphist
     - comm-sway-config
