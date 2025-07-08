@@ -191,7 +191,7 @@
     - wl-clipboard
     - p7zip
     - pacseek
-    - task
+    #- task
       
 - name: "Essential packages"
   description: "Packages required for system functionality."
