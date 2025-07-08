@@ -124,6 +124,7 @@
   critical: true
   packages:
     - auto-tweaks-browser
+    - bibata-cursor-theme
     - biglinux-bash-config
     - brightnessctl
     - cliphist
@@ -191,7 +192,7 @@
     - wl-clipboard
     - p7zip
     - pacseek
-    #- task
+    - task
       
 - name: "Essential packages"
   description: "Packages required for system functionality."
