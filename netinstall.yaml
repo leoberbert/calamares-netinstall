@@ -7,7 +7,6 @@
   packages:
     - auto-tweaks-browser
     - b43-fwcutter
-    - base-devel
     - bibata-cursor-theme
     - blueman
     - breeze
@@ -124,6 +123,7 @@
   critical: true
   packages:
     - auto-tweaks-browser
+    - autotiling-rs    
     - bibata-cursor-theme
     - biglinux-bash-config
     - brightnessctl
@@ -133,12 +133,15 @@
     - firefox
     - foot
     - fzf
+    - gammastep
+    - geoclue
     - g4music
     - glxinfo
     - gnome-calculator
     - gnome-text-editor
     - grim
     - jq
+    - kanshi
     - kitty
     - ly
     - loupe
@@ -150,7 +153,8 @@
     - nautilus-image-converter
     - nautilus-open-any-terminal
     - nautilus-with-terminal
-    - nautilus-share    
+    - nautilus-share
+    - nwg-dock
     - paru
     - pipewire
     - pipewire-pulse
