@@ -123,7 +123,7 @@
   critical: true
   packages:
     - auto-tweaks-browser
-    - autotiling-rs    
+    #- autotiling-rs    
     - bibata-cursor-theme
     - biglinux-bash-config
     - brightnessctl
