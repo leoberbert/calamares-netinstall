@@ -161,6 +161,8 @@
     - pipewire-pulse
     - playerctl
     - polkit-gnome
+    - python-cairo
+    - python-nautilus
     - qt5-graphicaleffects
     - qt5-quickcontrols2
     - qt5-svg
