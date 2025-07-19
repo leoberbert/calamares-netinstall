@@ -189,8 +189,8 @@
     - workstyle-git
     - xdg-desktop-portal
     - xdg-desktop-portal-gtk
-    - xdg-desktop-portal-hyprland
     - xdg-desktop-portal-wlr
+    - xdg-terminal-exec
     - xf86-input-elographics
     - xf86-input-evdev
     - xf86-input-libinput
