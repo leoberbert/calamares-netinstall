@@ -123,7 +123,6 @@
   critical: true
   packages:
     - auto-tweaks-browser
-    #- autotiling-rs    
     - bibata-cursor-theme
     - biglinux-bash-config
     - brightnessctl
@@ -191,6 +190,8 @@
     - xdg-desktop-portal-gtk
     - xdg-desktop-portal-wlr
     - xdg-terminal-exec
+    - xorg-xhost
+    - wf-recorder
     - xf86-input-elographics
     - xf86-input-evdev
     - xf86-input-libinput
